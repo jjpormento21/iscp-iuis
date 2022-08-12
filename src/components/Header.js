@@ -7,22 +7,20 @@ const Header = ({ logo }) => {
   return (
     <header>
       <Navbar bg="primary" variant="dark" expand="lg">
-        <Container>
           <Navbar.Brand className="mx-auto d-flex p-0">
             <img
               alt="iscp logo"
               src={logo}
               width="100"
               height="auto"
-              className="me-3 rounded-circle"
+              className="rounded-circle"
             />
-            <div className="text-center">
+            <div className="text-center ms-2">
               <h6>Republic of the Philippines</h6>
               <h3>International State College of the Philippines</h3>
               <h5>Integrated University Information System (IUIS)</h5>
             </div>
           </Navbar.Brand>
-        </Container>
       </Navbar>
       <Nav
         variant="pills"
